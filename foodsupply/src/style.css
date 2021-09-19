@@ -1,0 +1,82 @@
+.journeyTitle {
+  text-transform: capitalize;
+  font-size: 33px;
+  margin-bottom: 61px;
+}
+.journeyTitle2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 39px;
+}
+.journeyLink {
+  width: 300px;
+  margin: 51px auto 0;
+  border-left: 1px solid #000;
+  padding: 0 20px;
+  position: relative;
+}
+.journeyLink img {
+  width: 28px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -15px;
+}
+.journeyLink h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.card-container {
+  margin: 30px auto 60px !important;
+  min-width: 360px;
+  width: 360px;
+}
+.header {
+  color: orange !important;
+  text-transform: capitalize !important;
+}
+.companyNameStyle {
+  font-size: 16px;
+  color: #2a2a2a;
+  text-transform: capitalize;
+}
+.companyLocationStyle {
+  color: gray;
+  font-weight: bold;
+}
+.logoImage {
+  margin-right: 20px;
+  width: 100px !important;
+}
+.tagName {
+  text-transform: capitalize;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 15px;
+  color: #000;
+  cursor: pointer;
+}
+.madeWith {
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+}
+.companyLogo {
+  width: 60px !important;
+  margin-right: 15px !important;
+  cursor: pointer;
+}
+.topLink {
+  position: absolute;
+  bottom: -22px;
+  margin-left: 4px;
+}
+@media only screen and (max-width: 500px) {
+  .card-container {
+    width: 80%;
+    min-width: 80%;
+  }
+}
